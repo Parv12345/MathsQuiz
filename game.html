@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maths Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<script src="game.js"></script>
+<body class="body_bg">
+	<center>
+		<h2> Maths Quiz! </h2>
+		<br>
+		<br>
+	<div class="col-lg-4 col-sm-8 col-xs-11 player1_login"> 
+	<h3> Player 1 Name - </h3>
+	<input type="text" placeholder="Write your name here" id="player1_nameinput"class="form-control">
+		</div>
+		<br>
+		<div class="col-lg-4 col-sm-8 col-xs-11 player2_login"> 
+			<h3> Player 2 name - </h3>
+		
+			<input type="text" placeholder="Write your name here" id="player2_nameinput" class="form-control">
+		</div>
+		<p> Click "Log in" to continue to the Maths Quiz </p>
+		<button class="btn btn-success" id="login_button" onclick="addUser()" style="width: 30%;"> Log in </button>
+	</center>
+
+</body>

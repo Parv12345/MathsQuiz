@@ -1,0 +1,13 @@
+.player1_login , .player2_login
+{
+    background: white;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+}
+.body_bg{
+    background-image: url("bg.jpg");
+}
+#login_button{
+    width: 100px;
+}
